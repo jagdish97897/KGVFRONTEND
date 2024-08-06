@@ -124,14 +124,6 @@ const Booking = () => {
             onChangeText={(text) => handleOnChange('phonenumber', text)}
           />
 
-<<<<<<< HEAD
-        return () => {
-            keyboardDidShowListener.remove();
-            keyboardDidHideListener.remove();
-        };
-    }, []);
-    // hi
-=======
           <Picker
             selectedValue={selectedAmount}
             onValueChange={(itemValue) => handleAmountChange(itemValue)}
@@ -140,7 +132,6 @@ const Booking = () => {
             <Picker.Item label="₹10,000" value={10000} />
             <Picker.Item label="₹50,000" value={50000} />
           </Picker>
->>>>>>> 198a77ecddf1ac882f12b5ea4cafa14a0fcb58dd
 
           <TouchableOpacity style={styles.button} onPress={checkoutHandler}>
             <Text style={styles.buttonText}>Proceed to Payment</Text>
