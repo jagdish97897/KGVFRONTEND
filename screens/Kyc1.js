@@ -57,6 +57,7 @@ export default ({ navigation }) => {
             keyboardDidHideListener.remove();
         };
     }, []);
+    // hi
 
     return (
         <LinearGradient colors={['#06264D', "#FFF"]} style={{ flex: 1 }} >
